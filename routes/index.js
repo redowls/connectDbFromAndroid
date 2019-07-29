@@ -17,6 +17,7 @@ router.get('/', function(req, res, next) {
 router.post('/submit', function(req, res) {
   console.log('jalann')
   console.log(req)
+  res.send(200)
 })
 
 module.exports = router;
