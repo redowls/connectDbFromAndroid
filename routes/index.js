@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/submit', function(req, res) {
   console.log('jalann')
-  console.log(req)
+  console.log('reqqq'+req)
   res.send(200)
 })
 
