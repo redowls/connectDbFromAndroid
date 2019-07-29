@@ -14,4 +14,8 @@ router.get('/', function(req, res, next) {
   res.render('index')
 });
 
+router.post('/submit', function(req, res) {
+  console.log(req)
+})
+
 module.exports = router;
